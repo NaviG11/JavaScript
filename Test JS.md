@@ -1,19 +1,11 @@
 ## Respuestas al Test de JavaScript
-
-Recuerda que estas respuestas (o al  menos la mayoría) NO SON ABSOLUTAS. Es completamente válido (en la mayoría de casos) si tienes otras respuestas. Recuerda que podemos discutirlo en la sección de comentarios del curso. :D
-
-
 ## Variables y operaciones
-
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-
 - ¿Qué es una variable y para qué sirve?
-
-Cajtas (espacios en memoria) donde podemos guardar información (dependiendo de los tipos y estructuras de datos que soporte nuestro lenguaje).
+Cajitas (espacios en memoria) donde podemos guardar información (dependiendo de los tipos y estructuras de datos que soporte nuestro lenguaje).
 
 - ¿Cuál es la diferencia entre declarar e inicializar una variable?
-
-Declarar es cuando le decimos a JavaScript que vamos a crear una variable con el nombre tal. Mientras que inicializar (o reinicializar) es asignarle un valor a esa variable.
+Declarar es cuando le decimos a JavaScript que vamos a crear una variable con el nombre tal mientras que inicializar (o reinicializar) es asignarle un valor a esa variable.
 
 - ¿Cuál es la diferencia entre sumar números y concatenar strings?
 - ¿Cuál operador me permite sumar o concatenar?
@@ -24,9 +16,9 @@ EL operador que nos permite sumar o concatenar es +. Este operador nos permite s
 
 - Nombre: string
 - Apellido: string
-- Nombre de usuario en Platzi: strig (@fulanito)
+- Nombre de usuario en Platzi: strig (@NaviG)
 - Edad: number
-- Correo electrónico: string (lala@gmail.com)
+- Correo electrónico: string (ivancarlosqp@gmail.com)
 - Mayor de edad: boolean
 - Dinero ahorrado: number
 - Deudas: number
@@ -34,11 +26,11 @@ EL operador que nos permite sumar o concatenar es +. Este operador nos permite s
 ### 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 
 ```
-let nombre = 'Juan David';
-let apellido = 'Catro Gallego';
-let username = 'juandc';
-let edad = 19;
-let mail = 'juanito@alcachofa.xyz';
+let nombre = 'Ivan Carlos';
+let apellido = 'Quispe Patty';
+let username = 'NaviG11';
+let edad = 24;
+let mail = 'ivancarlosqp@gmail.com';
 let esMayorDeEdad = true;
 let dineroAhorrado = 1000;
 let deudas = 100;
@@ -54,34 +46,36 @@ let nombreCompleto = nombre + ' ' + apellido;
 let dineroReal = dineroAhorrado - deudas;
 ```
 
-
-
 ## Funciones
 
-### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-
+### 1️⃣ Responde las siguientes preguntas:
 - ¿Qué es una función?
+   Un bloque de código que trabaja en un scope local.
+   Nos permite encapsula en un bloques de código.
+   Nos ayuda a reutilizarlos más adelante.  
 - ¿Cuándo me sirve usar una función en mi código?
+   Nos sirve cuando tenemos variables o bloques de código muy parecidos que podemos encapsular para reutilizar más de una vez en el futuro.
 - ¿Cuál es la diferencia entre parámetros y argumentos de una función?
-
+   Usamos los parámetros, al declarar nuestra función y argumentos en el momento de llamar dicha función.
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 
 ```
-const name = "Juan David";
-const lastname = "Castro Gallego";
+const name = "Ivan Carlos";
+const lastname = "Quispe Patty";
 const completeName = name + lastname;
-const nickname = "juandc";
+const nickname = "NaviG";
 
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
 ```
 
-
 ## Condicionales
 
-### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-
+### 1️⃣ Responde las siguientes preguntas:
 - ¿Qué es un condicional?
+   Una estructura que nos permite controlar la veracidad de algo.
 - ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+   if...else
+   switch
 - ¿Puedo combinar funciones y condicionales?
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
